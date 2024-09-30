@@ -1,38 +1,38 @@
 // Array de documentos simulados con su categoría, imagen y descripción
 const documents = [
     { 
-        name: "Documento sobre Energía 1", 
-        file: "file1.pdf", 
+        name: "Plan estratégico institucional 2024-2028", 
+        file: "https://proyectomesoamerica.org/images/PM/2024/documentos/Plan-Estrategico-Institucional-PM-2024-2028.pdf", 
         category: ["Energía"],
-        image: "portada1.jpg", 
-        description: "Descripción sobre energías renovables."
+        image: "https://proyectomesoamerica.org/images/PM/2024/destacados/PEI.jpg", 
+        description: "Plan estratégico institucional 2024-2028."
     },
     { 
-        name: "Estudio Medio Ambiental", 
-        file: "file2.pdf", 
+        name: "OPS-OMS Presentación COP 26 Mesoamerica 2804", 
+        file: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/OPS-OMS-Presentacion-COP-26-Mesoamerica-2804-1.pdf", 
         category: ["MedioAmbiente"], 
-        image: "portada2.jpg", 
-        description: "Un estudio detallado sobre la conservación ambiental."
+        image: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/OPS-OMS-Presentacion-COP-26-Mesoamerica-2804.png", 
+        description: "Acuerdos en Salud de la COP26. Presentación en el marco del Simposio sobre los Acuerdos de la COP26: Reflexiones para los Países Miembros de Proyecto Mesoamérica, 28 de abril de 2022. Luis Francisco Sánchez Otero, Organización Panamericana de la Salud (OPS/OMS)."
     },
     { 
-        name: "Políticas de Vivienda", 
-        file: "file3.pdf", 
+        name: "GEF COP 26 SImposio_Proyecto Mesoamerica (002)", 
+        file: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/GEF-COP-26-SImposio_Proyecto-Mesoamerica-002.pdf", 
         category: ["Vivienda"], 
-        image: "portada3.jpg", 
+        image: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/GEF-COP-26-SImposio_Proyecto-Mesoamerica-002.png", 
         description: "Políticas públicas para vivienda social."
     },
     { 
-        name: "Documento sobre Energía 2", 
-        file: "file4.pdf", 
+        name: "CEPAL-IPCC 28 Abr 22 DL PM", 
+        file: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/CEPAL-IPCC-28-Abr-22-DL-PM.pdf", 
         category: ["Energía", "MedioAmbiente"], 
-        image: "portada4.jpg", 
-        description: "Análisis sobre la intersección entre energía y medio ambiente."
+        image: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/CEPAL-IPCC-28-Abr-22-DL-PM.png", 
+        description: "Cambio Climático y Riesgo de Desastres: Compendio de Buenas Prácticas en Mesoamérica, 2022. Enlaces Sectoriales de la EMSA, Proyecto de Integración y Desarrollo de Mesoamérica."
     },
     { 
         name: "Urbanismo y Vivienda", 
-        file: "file5.pdf", 
+        file: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/Cambio-Climatico-y-Riesgo-de-Desastres-Compendio-de-Buenas-Practicas-en-Mesoamerica.pdf", 
         category: ["Vivienda"], 
-        image: "portada5.jpg", 
+        image: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/Cambio-Climatico-y-Riesgo-de-Desastres-Compendio-de-Buenas-Practicas-en-Mesoamerica.png", 
         description: "Estudio urbanístico relacionado con viviendas sustentables."
     }
 ];
