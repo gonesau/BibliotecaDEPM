@@ -56,9 +56,9 @@ function generateDocumentHTML(doc) {
                 <p class="document-category">Categorías: ${doc.category.map(cat => `<span class="badge badge-primary">${cat}</span>`).join(' ')}</p>
             </div>
             <div class="col-md-3 d-flex flex-column justify-content-center">
-                <a href="documents/${doc.file}" target="_blank" class="btn btn-info mb-2">Vista Previa</a>
-                <a href="documents/${doc.file}" download class="btn btn-success mb-2">Descargar</a>
-                <button class="btn btn-secondary" onclick="copyLinkToClipboard('documents/${doc.file}')">Copiar enlace de documento</button>
+                <a href="${doc.file}" target="_blank" class="btn btn-info mb-2">Vista Previa</a>
+                <a href="${doc.file}" download class="btn btn-success mb-2">Descargar</a>
+                <button class="btn btn-secondary" onclick="copyLinkToClipboard('${doc.file}')">Copiar enlace de documento</button>
             </div>
         </section>
     `;
