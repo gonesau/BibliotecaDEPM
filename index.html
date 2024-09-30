@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositorio de Documentos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Banner -->
+<div class="container-fluid p-0">
+    <img src="https://proyectomesoamerica.org/images/Biblioteca/Banner-Biblioteca.jpg" alt="Banner" class="img-fluid w-100">
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Columna de Tabs laterales -->
+        <div class="col-md-3">
+            <h5>Categorías</h5>
+            <ul id="categories" class="list-group">
+                <li data-category="all" class="list-group-item active">Todos</li>
+                <li data-category="MedioAmbiente" class="list-group-item">Medio Ambiente</li>
+                <li data-category="Energía" class="list-group-item">Energía</li>
+                <li data-category="Vivienda" class="list-group-item">Vivienda</li>
+            </ul>
+        </div>
+
+        <!-- Columna principal -->
+        <div class="col-md-9">
+            <!-- Buscador -->
+            <input type="text" id="searchInput" class="form-control mb-4" placeholder="Buscar documento...">
+
+            <!-- Lista de documentos -->
+            <div id="documents-list">
+                <!-- Aquí se generarán los documentos dinámicamente -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Alerta de confirmación para copiar enlace -->
+<div id="copyAlert" class="alert alert-success fixed-top text-center" style="display: none;" role="alert">
+    ¡Enlace copiado al portapapeles!
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
