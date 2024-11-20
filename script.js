@@ -1,39 +1,25 @@
 // Array de documentos simulados con su categoría, imagen y descripción
 const documents = [
     { 
-        name: "Plan estratégico institucional 2024-2028", 
-        file: "https://proyectomesoamerica.org/images/PM/2024/documentos/Plan-Estrategico-Institucional-PM-2024-2028.pdf", 
-        category: ["Energía"],
-        image: "https://proyectomesoamerica.org/images/PM/2024/destacados/PEI.jpg", 
-        description: "Plan estratégico institucional 2024-2028."
+        name: "Acta que Institucionaliza el Proyecto Mesoamérica (2009)", 
+        file: "documents/ActaqueInstitucionalizaelProyectoMesoamerica.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/4.jpg", 
+        description: "Acta que Institucionaliza el Proyecto Mesoamérica (2009)"
     },
     { 
-        name: "OPS-OMS Presentación COP 26 Mesoamerica 2804", 
-        file: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/OPS-OMS-Presentacion-COP-26-Mesoamerica-2804-1.pdf", 
-        category: ["MedioAmbiente"], 
-        image: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/OPS-OMS-Presentacion-COP-26-Mesoamerica-2804.png", 
-        description: "Acuerdos en Salud de la COP26. Presentación en el marco del Simposio sobre los Acuerdos de la COP26: Reflexiones para los Países Miembros de Proyecto Mesoamérica, 28 de abril de 2022. Luis Francisco Sánchez Otero, Organización Panamericana de la Salud (OPS/OMS)."
+        name: "Reglamento para el Funcionamiento del Proyecto Mesoamérica", 
+        file: "documents/ReglamentodeFuncionamientodelPM_firmado.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/21.jpg", 
+        description: "Reglamento para el Funcionamiento del Proyecto Mesoamérica"
     },
     { 
-        name: "GEF COP 26 SImposio_Proyecto Mesoamerica (002)", 
-        file: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/GEF-COP-26-SImposio_Proyecto-Mesoamerica-002.pdf", 
-        category: ["Vivienda"], 
-        image: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/GEF-COP-26-SImposio_Proyecto-Mesoamerica-002.png", 
-        description: "Políticas públicas para vivienda social."
-    },
-    { 
-        name: "CEPAL-IPCC 28 Abr 22 DL PM", 
-        file: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/CEPAL-IPCC-28-Abr-22-DL-PM.pdf", 
-        category: ["Energía", "MedioAmbiente"], 
-        image: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/CEPAL-IPCC-28-Abr-22-DL-PM.png", 
-        description: "Cambio Climático y Riesgo de Desastres: Compendio de Buenas Prácticas en Mesoamérica, 2022. Enlaces Sectoriales de la EMSA, Proyecto de Integración y Desarrollo de Mesoamérica."
-    },
-    { 
-        name: "Urbanismo y Vivienda", 
-        file: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/Cambio-Climatico-y-Riesgo-de-Desastres-Compendio-de-Buenas-Practicas-en-Mesoamerica.pdf", 
-        category: ["Vivienda"], 
-        image: "https://proyectomesoamerica.org/images/Biblioteca/MedioAmbiente/Cambio-Climatico-y-Riesgo-de-Desastres-Compendio-de-Buenas-Practicas-en-Mesoamerica.png", 
-        description: "Estudio urbanístico relacionado con viviendas sustentables."
+        name: "Resolución para la Creación del Consejo Empresarial Mesoamericano (CEM)", 
+        file: "documents/ResolucionCEM.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/22.jpg", 
+        description: "Resolución para la Creación del Consejo Empresarial Mesoamericano (CEM)"
     }
 ];
 
