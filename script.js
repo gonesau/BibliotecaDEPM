@@ -20,6 +20,146 @@ const documents = [
         category: ["Institucional"],
         image: "documents/thumbnails/22.jpg", 
         description: "Resolución para la Creación del Consejo Empresarial Mesoamericano (CEM)"
+    },
+    { 
+        name: "Acta de Instalación de la Comisión de Promoción y Financiamiento", 
+        file: "documents/ActadeInstalaciondelaComisiondePromocionyFinanciamiento.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/1.jpg", 
+        description: "Acta de Instalación de la Comisión de Promoción y Financiamiento"
+    },
+    { 
+        name: "Acta institucionalización", 
+        file: "documents/ActaInstitucionalizacionPM.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/2.jpg", 
+        description: "Acta institucionalización "
+    },
+    { 
+        name: "Convenio de Adhesión Colombia al PPP", 
+        file: "documents/ConveniodeAdhesionColombiaalPPP.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/5.jpg", 
+        description: "Convenio de Adhesión Colombia al PPP"
+    },
+    { 
+        name: "Anexo del Acta que Institucionaliza el PPP", 
+        file: "documents/ActaqueInstitucionalizaelMecanismodelPPP.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/3.jpg", 
+        description: "Anexo del Acta que Institucionaliza el PPP"
+    },
+    { 
+        name: "Declaración PPP Campeche", 
+        file: "documents/DeclaracionPPPCampeche.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/10.jpg", 
+        description: "Declaración PPP Campeche"
+    },
+    { 
+        name: "Declaración PPP Campeche", 
+        file: "documents/DeclaracionPPPCampeche.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/10.jpg", 
+        description: "Declaración PPP Campeche"
+    },
+    { 
+        name: "Informe PM XVI Cumbre de Tuxtla", 
+        file: "documents/InformePMXVICumbredeTuxtla.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/20.jpg", 
+        description: "Informe PM XVI Cumbre de Tuxtla"
+    },
+    { 
+        name: "Informe PM XV Cumbre de Tuxtla", 
+        file: "documents/InformePMXVCumbredeTuxtla.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/19.jpg", 
+        description: "Informe PM XV Cumbre de Tuxtla"
+    },
+    { 
+        name: "Resoluciones Sectoriales XIII - Cumbre de Tuxtla", 
+        file: "documents/ResolucionesSectorialesXIIICumbredeTuxtla.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/23.jpg", 
+        description: "Resoluciones Sectoriales XIII - Cumbre de Tuxtla"
+    },
+    { 
+        name: "Declaración XII Cumbre de Tuxtla", 
+        file: "documents/DeclaracionXIICumbredeTuxtla.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/17.jpg", 
+        description: "Declaración XII Cumbre de Tuxtla"
+    },
+    { 
+        name: "Declaración XI Cumbre de Tuxtla", 
+        file: "documents/DeclaracionXICumbredeTuxtla.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/16.jpg", 
+        description: "Declaración XI Cumbre de Tuxtla"
+    },
+    { 
+        name: "Declaración X Tuxtla - Villahermosa", 
+        file: "documents/DeclaracionXTuxtlaVillahermosa.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/18.jpg", 
+        description: "Declaración X Tuxtla - Villahermosa"
+    },
+    { 
+        name: "Declaración IX Cumbre Tuxtla - Belice", 
+        file: "documents/DeclaracionIXCumbreTuxtlaBelice.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/10.jpg", 
+        description: "Declaración IX Cumbre Tuxtla - Belice"
+    },
+    { 
+        name: "Declaración VIII Cumbre de Tuxtla", 
+        file: "documents/DeclaracionVIIICumbredeTuxtla.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/15.jpg", 
+        description: "Declaración VIII Cumbre de Tuxtla"
+    },
+    { 
+        name: "Declaración VII Cumbre de Tuxtla", 
+        file: "documents/DeclaracionVIICumbredeTuxtla.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/14.jpg", 
+        description: "Declaración VII Cumbre de Tuxtla"
+    },
+    { 
+        name: "Declaración VI Cumbre de Tuxtla", 
+        file: "documents/DeclaracionVICumbredeTuxtla.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/13.jpg", 
+        description: "Declaración VI Cumbre de Tuxtla"
+    },
+    { 
+        name: "Declaración V Cumbre de Tuxtla", 
+        file: "documents/DeclaracionVCumbredeTuxtla.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/12.jpg", 
+        description: "Declaración V Cumbre de Tuxtla"
+    },
+    { 
+        name: "Declaración IV Cumbre de Tuxtla", 
+        file: "documents/DeclaracionIVCumbredeTuxtla.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/9.jpg", 
+        description: "Declaración IV Cumbre de Tuxtla"
+    },
+    { 
+        name: "Declaración III Cumbre de Tuxtla", 
+        file: "documents/DeclaracionIIICumbredeTuxtla.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/8.jpg", 
+        description: "Declaración III Cumbre de Tuxtla"
+    },
+    { 
+        name: "Declaración II Cumbre de Tuxtla", 
+        file: "documents/DeclaracionIICumbredeTuxtla.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/7.jpg", 
+        description: "Declaración II Cumbre de Tuxtla"
     }
 ];
 
