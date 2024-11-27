@@ -57,13 +57,6 @@ const documents = [
         description: "Declaración PPP Campeche"
     },
     { 
-        name: "Declaración PPP Campeche", 
-        file: "documents/DeclaracionPPPCampeche.pdf", 
-        category: ["Institucional"],
-        image: "documents/thumbnails/10.jpg", 
-        description: "Declaración PPP Campeche"
-    },
-    { 
         name: "Informe PM XVI Cumbre de Tuxtla", 
         file: "documents/InformePMXVICumbredeTuxtla.pdf", 
         category: ["Institucional"],
