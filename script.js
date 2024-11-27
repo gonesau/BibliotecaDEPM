@@ -229,9 +229,16 @@ showDocuments("all");
 
 // Función para copiar el enlace de documento al portapapeles
 function copyLinkToClipboard(link) {
+    // Base URL for the document repository
+    const baseUrl = "https://proyectomesoamerica.org/images/BibliotecaDEPM/";
+    
+    // Create a full URL by combining the base URL with the link
+    const fullLink = baseUrl + link;
+    
+    // Create a temporary input element to copy the link
     const tempInput = document.createElement("input");
     document.body.appendChild(tempInput);
-    tempInput.value = window.location.href + link;
+    tempInput.value = fullLink;
     tempInput.select();
     document.execCommand("copy");
     document.body.removeChild(tempInput);
