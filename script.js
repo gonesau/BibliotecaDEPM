@@ -153,6 +153,76 @@ const documents = [
         category: ["Institucional"],
         image: "documents/thumbnails/7.jpg", 
         description: "Declaración II Cumbre de Tuxtla"
+    },
+    { 
+        name: "Agenda Mesoamericana de Transporte, Movilidad y Logística", 
+        file: "documents/AgendaMesoamericanadeTransporteMovilidadyLogistica.pdf", 
+        category: ["Economico"],
+        image: "documents/thumbnails/24.jpg", 
+        description: "Agenda Mesoamericana de Transporte, Movilidad y Logística"
+    },
+    { 
+        name: "Plan de Acción Regional de Transporte Marítimo de Corta Distancia (PAR TMCD).", 
+        file: "documents/PlandeAccionRegionaldeTransporteMaritimodeCortaDistancia(PARTMCD).pdf", 
+        category: ["Economico"],
+        image: "documents/thumbnails/25.jpg", 
+        description: "Plan de Acción Regional de Transporte Marítimo de Corta Distancia (PAR TMCD)."
+    },
+    { 
+        name: "Agenda Mesoamericana de Facilitación Comercial y Competitividad.", 
+        file: "documents/AgendaMesoamericanadeFacilitacionComercialyCompetitividad.pdf", 
+        category: ["Economico"],
+        image: "documents/thumbnails/26.jpg", 
+        description: "Agenda Mesoamericana de Facilitación Comercial y Competitividad."
+    },
+    { 
+        name: "Agenda Mesoamericana de Mipymes", 
+        file: "documents/AgendaMesoamericanaMipyme.pdf", 
+        category: ["Economico"],
+        image: "documents/thumbnails/27.jpg", 
+        description: "Agenda Mesoamericana de Mipymes"
+    },
+    { 
+        name: "MOU CENPROMYPE", 
+        file: "documents/MOUCENPROMYPE.pdf", 
+        category: ["Economico"],
+        image: "documents/thumbnails/28.jpg", 
+        description: "MOU CENPROMYPE"
+    },
+    { 
+        name: "MOU RMIDB", 
+        file: "documents/MOURMIDB.pdf", 
+        category: ["Economico"],
+        image: "documents/thumbnails/29.jpg", 
+        description: "MOU RMIDB"
+    },
+    { 
+        name: "MOU PMUREE", 
+        file: "documents/MOUPMUREE.pdf", 
+        category: ["Economico"],
+        image: "documents/thumbnails/30.jpg", 
+        description: "MOU PMUREE"
+    },
+    { 
+        name: "Agenda Digital Mesoamericana (ADM).", 
+        file: "documents/AgendaDigitalMesoamericana(ADM).pdf", 
+        category: ["Economico"],
+        image: "documents/thumbnails/31.jpg", 
+        description: "Agenda Digital Mesoamericana (ADM)."
+    },
+    { 
+        name: "MOU Comisión Centroamericana de Telecomunicaciones (COMTELCA)", 
+        file: "documents/MOUComisionCentroamericanadeTelecomunicaciones(COMTELCA).pdf", 
+        category: ["Economico"],
+        image: "documents/thumbnails/32.jpg", 
+        description: "MOU Comisión Centroamericana de Telecomunicaciones (COMTELCA)"
+    },
+    { 
+        name: "Decálogo ADM", 
+        file: "documents/DecalogoADM.pdf", 
+        category: ["Economico"],
+        image: "documents/thumbnails/33.jpg", 
+        description: "Decálogo ADM"
     }
 ];
 
