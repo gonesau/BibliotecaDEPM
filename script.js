@@ -29,13 +29,6 @@ const documents = [
         description: "Acta de Instalación de la Comisión de Promoción y Financiamiento"
     },
     { 
-        name: "Acta institucionalización", 
-        file: "documents/ActaInstitucionalizacionPM.pdf", 
-        category: ["Institucional"],
-        image: "documents/thumbnails/2.jpg", 
-        description: "Acta institucionalización "
-    },
-    { 
         name: "Convenio de Adhesión Colombia al Plan Puebla Panamá", 
         file: "documents/ConveniodeAdhesionColombiaalPPP.pdf", 
         category: ["Institucional"],
@@ -346,7 +339,7 @@ const documents = [
     { 
         name: "Portafolio de Proyectos 2024", 
         file: "documents/PortafoliodeProyectos2024.pdf", 
-        category: ["Socioambiental"],
+        category: ["Institucional"],
         image: "documents/thumbnails/51.jpg", 
         description: "Portafolio de Proyectos 2024"
     }
