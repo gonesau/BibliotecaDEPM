@@ -36,25 +36,25 @@ const documents = [
         description: "Acta institucionalización "
     },
     { 
-        name: "Convenio de Adhesión Colombia al PPP", 
+        name: "Convenio de Adhesión Colombia al Plan Puebla Panamá", 
         file: "documents/ConveniodeAdhesionColombiaalPPP.pdf", 
         category: ["Institucional"],
         image: "documents/thumbnails/5.jpg", 
-        description: "Convenio de Adhesión Colombia al PPP"
+        description: "Convenio de Adhesión Colombia al Plan Puebla Panamá"
     },
     { 
-        name: "Anexo del Acta que Institucionaliza el PPP", 
+        name: "Anexo del Acta que Institucionaliza el Plan Puebla Panamá", 
         file: "documents/ActaqueInstitucionalizaelMecanismodelPPP.pdf", 
         category: ["Institucional"],
         image: "documents/thumbnails/3.jpg", 
-        description: "Anexo del Acta que Institucionaliza el PPP"
+        description: "Anexo del Acta que Institucionaliza el Plan Puebla Panamá"
     },
     { 
-        name: "Declaración PPP Campeche", 
+        name: "Declaración Plan Puebla Panamá Campeche", 
         file: "documents/DeclaracionPPPCampeche.pdf", 
         category: ["Institucional"],
         image: "documents/thumbnails/10.jpg", 
-        description: "Declaración PPP Campeche"
+        description: "Declaración Plan Puebla Panamá Campeche"
     },
     { 
         name: "Informe PM XVI Cumbre de Tuxtla", 
@@ -223,7 +223,134 @@ const documents = [
         category: ["Economico"],
         image: "documents/thumbnails/33.jpg", 
         description: "Decálogo ADM"
+    },
+    { 
+        name: "Plan Trienal SMSP", 
+        file: "documents/PlanTrienalSMSP.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/34.jpg", 
+        description: "Plan Trienal SMSP"
+    },
+    { 
+        name: "Guía Técnica: Movilidad Saludable, Segura y Sostenible", 
+        file: "documents/GuiaTecnicaMovilidadSaludableSeguraySostenibleenMesoamerica.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/35.jpg", 
+        description: "Guía Técnica: Movilidad Saludable, Segura y Sostenible"
+    },
+    { 
+        name: "Protocolo de Comunicación para Fomentar la Seguridad Vial", 
+        file: "documents/ProtocolodeComunicacionparaFomentarlaSeguridadVial.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/36.jpg", 
+        description: "Protocolo de Comunicación para Fomentar la Seguridad Vial"
+    },
+    { 
+        name: "Documento constitutivo de Sistema Mesoamericano de Salud Pública (SMSP).", 
+        file: "documents/DocumentoconstitutivodeSistemaMesoamericanodeSaludPublica(SMSP).pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/37.jpg", 
+        description: "Documento constitutivo de Sistema Mesoamericano de Salud Pública (SMSP)."
+    },
+    { 
+        name: "MOU COMISCA", 
+        file: "documents/MOUCOMISCA.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/38.jpg", 
+        description: "MOU COMISCA"
+    },
+    { 
+        name: "Estrategia Mesoamericana de Sustentabilidad Ambiental (EMSA).", 
+        file: "documents/EstrategiaMesoamericanadeSustentabilidadAmbiental(EMSA).pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/39.jpg", 
+        description: "Estrategia Mesoamericana de Sustentabilidad Ambiental (EMSA)."
+    },
+    { 
+        name: "Plan Director CBM 2030", 
+        file: "documents/PlanDirectorCBM2030.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/40.jpg", 
+        description: "Plan Director CBM 2030"
+    },
+    { 
+        name: "Compendio Cambio Climático", 
+        file: "documents/CompendioCambioClimatico.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/41.jpg", 
+        description: "Compendio Cambio Climático"
+    },
+    { 
+        name: "Diagnóstico Educación Ambiental", 
+        file: "documents/DiagnosticoEducacionAmbiental.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/42.jpg", 
+        description: "Diagnóstico Educación Ambiental "
+    },
+    { 
+        name: "Programa Mesoamericano de Educación Ambiental", 
+        file: "documents/ProgramaMesoamericanodeEducacionAmbiental.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/43.jpg", 
+        description: "Programa Mesoamericano de Educación Ambiental"
+    },
+    { 
+        name: "Políticas de Educación Ambiental de Panamá", 
+        file: "documents/PoliticasdeEducacionAmbientaldePanama.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/44.jpg", 
+        description: "Políticas de Educación Ambiental de Panamá"
+    },
+    { 
+        name: "Lineamientos Regionales de Educación Ambiental", 
+        file: "documents/LineamientosRegionalesdeEducacionAmbiental.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/45.jpg", 
+        description: "Lineamientos Regionales de Educación Ambiental"
+    },
+    { 
+        name: "Plan de Comunicaciones", 
+        file: "documents/PlandeComunicaciones.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/46.jpg", 
+        description: "Plan de Comunicaciones"
+    },
+    { 
+        name: "Plan de investigación", 
+        file: "documents/Plandeinvestigacion.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/47.jpg", 
+        description: "Plan de investigación"
+    },
+    { 
+        name: "Referentes conceptuales de EA", 
+        file: "documents/ReferentesconceptualesdeEA.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/48.jpg", 
+        description: "Referentes conceptuales de EA"
+    },
+    { 
+        name: "MOU CCAD", 
+        file: "documents/MOUCCAD.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/49.jpg", 
+        description: "MOU CCAD"
+    },
+    { 
+        name: "MOU CEPREDENAC", 
+        file: "documents/MOUCEPREDENAC.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/50.jpg", 
+        description: "MOU CEPREDENAC"
+    },
+    { 
+        name: "Portafolio de Proyectos 2024", 
+        file: "documents/PortafoliodeProyectos2024.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/51.jpg", 
+        description: "Portafolio de Proyectos 2024"
     }
+
 ];
 
 // Referencias a los elementos HTML
