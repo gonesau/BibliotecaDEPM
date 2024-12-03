@@ -391,8 +391,70 @@ const documents = [
         category: ["Institucional"],
         image: "documents/thumbnails/58.jpg", 
         description: "Edición 2023: Acción por el clima en Mesoamérica"
+    },
+    { 
+        name: "Revista Mesoamérica Nos Une Edición 2024: Desarrollo Territorial Sostenible", 
+        file: "documents/RevistaMesoamericaNosUne2024.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/59.jpg", 
+        description: "Revista Mesoamérica Nos Une Edición 2024: Desarrollo Territorial Sostenible"
+    },
+    { 
+        name: "Cuaderno GTI", 
+        file: "documents/CuadernoGTI.PDF", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/60.jpg", 
+        description: "Cuaderno GTI"
+    },
+    { 
+        name: "Cuaderno 1", 
+        file: "documents/Cuaderno1.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/61.jpg", 
+        description: "Cuaderno 1"
+    },
+    { 
+        name: "Cuaderno 2", 
+        file: "documents/Cuaderno2.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/62.jpg", 
+        description: "Cuaderno 2"
+    },
+    { 
+        name: "Cuaderno 3", 
+        file: "documents/Cuaderno3.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/63.jpg", 
+        description: "Cuaderno 3"
+    },
+    { 
+        name: "Cuaderno 4", 
+        file: "documents/Cuaderno4.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/64.jpg", 
+        description: "Cuaderno 4"
+    },
+    { 
+        name: "Cuaderno Desarrollo Sostenible ", 
+        file: "documents/Cuaderno4.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/65.jpg", 
+        description: "Cuaderno Desarrollo Sostenible "
+    },
+    { 
+        name: "Cuaderno TMCD", 
+        file: "documents/CuadernoTMCD.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/66.jpg", 
+        description: "Cuaderno TMCD"
+    },
+    { 
+        name: "Cuaderno País: México", 
+        file: "documents/CuadernoPaisMexico.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/67.jpg", 
+        description: "Cuaderno País: México"
     }
-
 ];
 
 // Referencias a los elementos HTML
