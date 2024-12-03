@@ -344,49 +344,49 @@ const documents = [
         description: "Portafolio de Proyectos 2024"
     },
     { 
-        name: "Revista Edición 2017: XVI Cumbre de Tuxtla", 
+        name: "Revista Mesoamérica Nos UNE Edición 2017: XVI Cumbre de Tuxtla", 
         file: "documents/Edicion2017XVICumbredeTuxtla.pdf", 
         category: ["Institucional"],
         image: "documents/thumbnails/52.jpg", 
         description: "Edición 2017: XVI Cumbre de Tuxtla"
     },
     { 
-        name: "Revista Edición 2018: 10.° Aniversario del PM", 
+        name: "Revista Mesoamérica Nos UNE Edición 2018: 10.° Aniversario del PM", 
         file: "documents/Edicion201810AniversariodelPM.pdf", 
         category: ["Institucional"],
         image: "documents/thumbnails/53.jpg", 
         description: "Edición 2018: 10.° Aniversario del PM"
     },
     { 
-        name: "Revista Edición 2019: XVII Cumbre de Tuxtla", 
+        name: "Revista Mesoamérica Nos UNE Edición 2019: XVII Cumbre de Tuxtla", 
         file: "documents/Edicion2019XVIICumbredeTuxtla.pdf", 
         category: ["Institucional"],
         image: "documents/thumbnails/54.jpg", 
         description: "Edición 2019: XVII Cumbre de Tuxtla"
     },
     { 
-        name: "Revista Edición 2020: Década de Acción Agenda 2030", 
+        name: "Revista Mesoamérica Nos UNE Edición 2020: Década de Acción Agenda 2030", 
         file: "documents/Edicion2020DecadadeAccionAgenda2030.pdf", 
         category: ["Institucional"],
         image: "documents/thumbnails/55.jpg", 
         description: "Edición 2020: Década de Acción Agenda 2030"
     },
     { 
-        name: "Revista Edición 2021: Gestión de Riesgos y Cambio climático", 
+        name: "Revista Mesoamérica Nos UNE Edición 2021: Gestión de Riesgos y Cambio climático", 
         file: "documents/Edicion2021GestiondeRiesgosyCambioclimatico.pdf", 
         category: ["Institucional"],
         image: "documents/thumbnails/56.jpg", 
         description: "Edición 2021: Gestión de Riesgos y Cambio climático"
     },
     { 
-        name: "Revista Edición 2022: Rumbo a la XVIII Cumbre de Tuxtla", 
+        name: "Revista Mesoamérica Nos UNE Edición 2022: Rumbo a la XVIII Cumbre de Tuxtla", 
         file: "documents/Edicion2022RumboalaXVIIICumbredeTuxtla.pdf", 
         category: ["Institucional"],
         image: "documents/thumbnails/57.jpg", 
         description: "Edición 2022: Rumbo a la XVIII Cumbre de Tuxtla"
     },
     { 
-        name: "Revista Edición 2023: Acción por el clima en Mesoamérica", 
+        name: "Revista Mesoamérica Nos UNE Edición 2023: Acción por el clima en Mesoamérica", 
         file: "documents/Revista-Mesoamrica-Nos-Une-2023.pdf", 
         category: ["Institucional"],
         image: "documents/thumbnails/58.jpg", 
