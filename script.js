@@ -155,14 +155,14 @@ const documents = [
         description: "Agenda Mesoamericana de Transporte, Movilidad y Logística"
     },
     { 
-        name: "Plan de Acción Regional de Transporte Marítimo de Corta Distancia (PAR TMCD).", 
+        name: "Plan de Acción Regional de Transporte Marítimo de Corta Distancia (PAR TMCD)", 
         file: "documents/PlandeAccionRegionaldeTransporteMaritimodeCortaDistancia(PARTMCD).pdf", 
         category: ["Economico"],
         image: "documents/thumbnails/25.jpg", 
         description: "Plan de Acción Regional de Transporte Marítimo de Corta Distancia (PAR TMCD)."
     },
     { 
-        name: "Agenda Mesoamericana de Facilitación Comercial y Competitividad.", 
+        name: "Agenda Mesoamericana de Facilitación Comercial y Competitividad", 
         file: "documents/AgendaMesoamericanadeFacilitacionComercialyCompetitividad.pdf", 
         category: ["Economico"],
         image: "documents/thumbnails/26.jpg", 
@@ -197,7 +197,7 @@ const documents = [
         description: "MOU PMUREE"
     },
     { 
-        name: "Agenda Digital Mesoamericana (ADM).", 
+        name: "Agenda Digital Mesoamericana (ADM)", 
         file: "documents/AgendaDigitalMesoamericana(ADM).pdf", 
         category: ["Economico"],
         image: "documents/thumbnails/31.jpg", 
@@ -239,7 +239,7 @@ const documents = [
         description: "Protocolo de Comunicación para Fomentar la Seguridad Vial"
     },
     { 
-        name: "Documento constitutivo de Sistema Mesoamericano de Salud Pública (SMSP).", 
+        name: "Documento constitutivo de Sistema Mesoamericano de Salud Pública (SMSP)", 
         file: "documents/DocumentoconstitutivodeSistemaMesoamericanodeSaludPublica(SMSP).pdf", 
         category: ["Socioambiental"],
         image: "documents/thumbnails/37.jpg", 
@@ -253,7 +253,7 @@ const documents = [
         description: "MOU COMISCA"
     },
     { 
-        name: "Estrategia Mesoamericana de Sustentabilidad Ambiental (EMSA).", 
+        name: "Estrategia Mesoamericana de Sustentabilidad Ambiental (EMSA)", 
         file: "documents/EstrategiaMesoamericanadeSustentabilidadAmbiental(EMSA).pdf", 
         category: ["Socioambiental"],
         image: "documents/thumbnails/39.jpg", 
