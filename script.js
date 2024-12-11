@@ -473,7 +473,33 @@ const ITEMS_PER_PAGE = 5;
 let currentPage = 1;
 let filteredDocuments = [];
 
+
+
+
+
+
 // Función para generar el HTML dinámico de un documento
+function generateDocumentHTML(doc) {
+    return `
+        <section class="row document-item">
+            <div class="col-md-3">
+                <img src="${doc.image}" alt="Portada del Documento" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h5 class="document-title">${doc.name}</h5>
+                <p class="document-description">${doc.description}</p>
+                <p class="document-category">Categorías: ${doc.category.map(cat => `<span class="badge badge-primary">${cat}</span>`).join(' ')}</p>
+            </div>
+            <div class="col-md-3 d-flex flex-column justify-content-center">
+                <a href="registrar_documento.php?documento=${encodeURIComponent(doc.file)}&accion=Vista Previa" target="_blank" class="btn btn-info mb-2">Vista Previa</a>
+                <a href="registrar_documento.php?documento=${encodeURIComponent(doc.file)}&accion=Descarga" class="btn btn-success mb-2" download>Descargar</a>
+                <button class="btn btn-secondary" onclick="copyLinkToClipboard('registrar_documento.php?documento=${encodeURIComponent(doc.file)}&accion=Vista Previa')">Copiar enlace de documento</button>
+            </div>
+        </section>
+    `;
+}
+
+/*
 function generateDocumentHTML(doc) {
     return `
         <section class="row document-item">
@@ -493,6 +519,9 @@ function generateDocumentHTML(doc) {
         </section>
     `;
 }
+*/
+
+
 
 // Función para crear botones de paginación
 function createPaginationButtons() {
@@ -598,6 +627,26 @@ categories.addEventListener("click", function(e) {
 
 // Copiar enlace de documento al portapapeles
 function copyLinkToClipboard(link) {
+    const baseUrl = "https://proyectomesoamerica.org/";
+    const fullLink = baseUrl + link;
+
+    // Crear un elemento temporal para copiar
+    const tempInput = document.createElement("input");
+    document.body.appendChild(tempInput);
+    tempInput.value = fullLink;
+    tempInput.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempInput);
+
+    // Mostrar alerta de confirmación
+    copyAlert.style.display = "block";
+    setTimeout(() => {
+        copyAlert.style.display = "none";
+    }, 2000);
+}
+
+/*
+function copyLinkToClipboard(link) {
     // Base URL for the document repository
     const baseUrl = "https://proyectomesoamerica.org/images/BibliotecaDEPM/";
     
@@ -618,6 +667,8 @@ function copyLinkToClipboard(link) {
         copyAlert.style.display = "none";
     }, 2000);
 }
+*/
+
 
 // Mostrar todos los documentos al cargar la página
 showDocuments("all");
