@@ -486,8 +486,8 @@ function generateDocumentHTML(doc) {
                 <p class="document-category">Categorías: ${doc.category.map(cat => `<span class="badge badge-primary">${cat}</span>`).join(' ')}</p>
             </div>
             <div class="col-md-3 d-flex flex-column justify-content-center">
-                <a href="${doc.file}" target="_blank" class="btn btn-info mb-2">Vista Previa</a>
-                <a href="${doc.file}" download class="btn btn-success mb-2">Descargar</a>
+                <a href="${doc.file}" target="_blank" class="btn btn-info mb-2" onclick="registrarEvento('${doc.name}', 'Vista Previa')">Vista Previa</a>
+                <a href="${doc.file}" download class="btn btn-success mb-2" onclick="registrarEvento('${doc.name}', 'Descarga')">Descargar</a>
                 <button class="btn btn-secondary" onclick="copyLinkToClipboard('${doc.file}')">Copiar enlace de documento</button>
             </div>
         </section>
@@ -621,3 +621,22 @@ function copyLinkToClipboard(link) {
 
 // Mostrar todos los documentos al cargar la página
 showDocuments("all");
+
+
+// Función para registrar eventos
+function registrarEvento(documento, accion) {
+    fetch('guardar_registro.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ documento, accion }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Registro enviado:', data);
+    })
+    .catch(error => {
+        console.error('Error al enviar el registro:', error);
+    });
+}
