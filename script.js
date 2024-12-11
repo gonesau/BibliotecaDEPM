@@ -491,9 +491,9 @@ function generateDocumentHTML(doc) {
                 <p class="document-category">Categorías: ${doc.category.map(cat => `<span class="badge badge-primary">${cat}</span>`).join(' ')}</p>
             </div>
             <div class="col-md-3 d-flex flex-column justify-content-center">
-                <a href="registrar_documento.php?documento=${encodeURIComponent(doc.file)}&accion=Vista Previa" target="_blank" class="btn btn-info mb-2">Vista Previa</a>
-                <a href="registrar_documento.php?documento=${encodeURIComponent(doc.file)}&accion=Descarga" class="btn btn-success mb-2" download>Descargar</a>
-                <button class="btn btn-secondary" onclick="copyLinkToClipboard('registrar_documento.php?documento=${encodeURIComponent(doc.file)}&accion=Vista Previa')">Copiar enlace de documento</button>
+                <a href="registrar_documento.php?documento=${encodeURIComponent(doc.file)}&accion=Vista%20Previa" target="_blank" class="btn btn-info mb-2">Vista Previa</a>
+                <a href="registrar_documento.php?documento=${encodeURIComponent(doc.file)}&accion=Descarga" class="btn btn-success mb-2">Descargar</a>
+                <button class="btn btn-secondary" onclick="copyLinkToClipboard('registrar_documento.php?documento=${encodeURIComponent(doc.file)}&accion=Vista%20Previa')">Copiar enlace de documento</button>
             </div>
         </section>
     `;
@@ -627,7 +627,7 @@ categories.addEventListener("click", function(e) {
 
 // Copiar enlace de documento al portapapeles
 function copyLinkToClipboard(link) {
-    const baseUrl = "https://proyectomesoamerica.org/";
+    const baseUrl = window.location.origin + '/';
     const fullLink = baseUrl + link;
 
     // Crear un elemento temporal para copiar

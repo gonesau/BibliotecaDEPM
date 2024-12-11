@@ -2,7 +2,7 @@
 // registrar_documento.php
 
 if (isset($_GET['documento']) && isset($_GET['accion'])) {
-    $documento = $_GET['documento'];
+    $documento = urldecode($_GET['documento']); // Decodifica el nombre del documento
     $accion = $_GET['accion'];
     $timestamp = date('Y-m-d H:i:s');
 
@@ -15,14 +15,20 @@ if (isset($_GET['documento']) && isset($_GET['accion'])) {
     // Guardar el registro
     file_put_contents($archivo, $registro, FILE_APPEND);
 
-    // Redirigir al documento
-    $rutaDocumento = "documents/$documento";
+    // Ruta completa del documento
+    $rutaDocumento = __DIR__ . "/documents/" . $documento;
+
+    // Redirigir al documento solo si existe
     if (file_exists($rutaDocumento)) {
-        header("Location: $rutaDocumento");
+        header("Content-Type: application/octet-stream");
+        header("Content-Disposition: inline; filename=" . basename($rutaDocumento));
+        readfile($rutaDocumento);
         exit();
     } else {
+        http_response_code(404);
         echo "El documento no existe.";
     }
 } else {
+    http_response_code(400);
     echo "Solicitud inválida.";
 }
