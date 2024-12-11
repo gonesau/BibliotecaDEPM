@@ -491,27 +491,6 @@ function generateDocumentHTML(doc) {
                 <p class="document-category">Categorías: ${doc.category.map(cat => `<span class="badge badge-primary">${cat}</span>`).join(' ')}</p>
             </div>
             <div class="col-md-3 d-flex flex-column justify-content-center">
-                <a href="registrar_documento.php?documento=${encodeURIComponent(doc.file)}&accion=Vista%20Previa" target="_blank" class="btn btn-info mb-2">Vista Previa</a>
-                <a href="registrar_documento.php?documento=${encodeURIComponent(doc.file)}&accion=Descarga" class="btn btn-success mb-2">Descargar</a>
-                <button class="btn btn-secondary" onclick="copyLinkToClipboard('registrar_documento.php?documento=${encodeURIComponent(doc.file)}&accion=Vista%20Previa')">Copiar enlace de documento</button>
-            </div>
-        </section>
-    `;
-}
-
-/*
-function generateDocumentHTML(doc) {
-    return `
-        <section class="row document-item">
-            <div class="col-md-3">
-                <img src="${doc.image}" alt="Portada del Documento" class="img-fluid">
-            </div>
-            <div class="col-md-6">
-                <h5 class="document-title">${doc.name}</h5>
-                <p class="document-description">${doc.description}</p>
-                <p class="document-category">Categorías: ${doc.category.map(cat => `<span class="badge badge-primary">${cat}</span>`).join(' ')}</p>
-            </div>
-            <div class="col-md-3 d-flex flex-column justify-content-center">
                 <a href="${doc.file}" target="_blank" class="btn btn-info mb-2" onclick="registrarEvento('${doc.name}', 'Vista Previa')">Vista Previa</a>
                 <a href="${doc.file}" download class="btn btn-success mb-2" onclick="registrarEvento('${doc.name}', 'Descarga')">Descargar</a>
                 <button class="btn btn-secondary" onclick="copyLinkToClipboard('${doc.file}')">Copiar enlace de documento</button>
@@ -519,7 +498,7 @@ function generateDocumentHTML(doc) {
         </section>
     `;
 }
-*/
+
 
 
 
@@ -627,26 +606,6 @@ categories.addEventListener("click", function(e) {
 
 // Copiar enlace de documento al portapapeles
 function copyLinkToClipboard(link) {
-    const baseUrl = window.location.origin + '/';
-    const fullLink = baseUrl + link;
-
-    // Crear un elemento temporal para copiar
-    const tempInput = document.createElement("input");
-    document.body.appendChild(tempInput);
-    tempInput.value = fullLink;
-    tempInput.select();
-    document.execCommand("copy");
-    document.body.removeChild(tempInput);
-
-    // Mostrar alerta de confirmación
-    copyAlert.style.display = "block";
-    setTimeout(() => {
-        copyAlert.style.display = "none";
-    }, 2000);
-}
-
-/*
-function copyLinkToClipboard(link) {
     // Base URL for the document repository
     const baseUrl = "https://proyectomesoamerica.org/images/BibliotecaDEPM/";
     
@@ -667,7 +626,7 @@ function copyLinkToClipboard(link) {
         copyAlert.style.display = "none";
     }, 2000);
 }
-*/
+
 
 
 // Mostrar todos los documentos al cargar la página
