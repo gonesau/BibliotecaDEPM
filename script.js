@@ -454,6 +454,13 @@ const documents = [
         category: ["Institucional"],
         image: "documents/thumbnails/67.jpg", 
         description: "Cuaderno País: México"
+    },
+    { 
+        name: "Declaracion Cumbre Tuxtla San Salvador - 15 junio 2001", 
+        file: "documents/DeclaracionCumbreTuxtlaSanSalvador15junio2001.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/68.jpg", 
+        description: "Declaracion Cumbre Tuxtla San Salvador - 15 junio 2001"
     }
 ];
 
