@@ -468,6 +468,13 @@ const documents = [
         category: ["Institucional"],
         image: "documents/thumbnails/69.jpg", 
         description: "Declaracion Cumbre Tuxtla San Salvador - 23 de agosto de 2019"
+    },
+    { 
+        name: "Plan Estratégico Institucional PM 2024 - 2028", 
+        file: "documents/PlanEstrategicoInstitucionalPM2024-2028.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/70.jpg", 
+        description: "Plan Estratégico Institucional PM 2024 - 2028"
     }
 ];
 
