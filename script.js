@@ -475,6 +475,13 @@ const documents = [
         category: ["Institucional"],
         image: "documents/thumbnails/70.jpg", 
         description: "Plan Estratégico Institucional PM 2024 - 2028"
+    },
+    { 
+        name: "Portafolio 2025 | Peoyecto Mesoamérica", 
+        file: "documents/Portafolio.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/71.jpg", 
+        description: "Portafolio 2025 | Peoyecto Mesoamérica"
     }
 ];
 
