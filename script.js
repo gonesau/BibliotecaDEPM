@@ -482,6 +482,48 @@ const documents = [
         category: ["Institucional"],
         image: "documents/thumbnails/71.jpg", 
         description: "Portafolio 2025 | Peoyecto Mesoamérica"
+    },
+    { 
+        name: "Informe PM X Cumbre Tuxtla 2008", 
+        file: "documents/InformePMXCumbreTuxtla2008.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/72.jpg", 
+        description: "Informe PM X Cumbre Tuxtla 2008"
+    },
+    { 
+        name: "Informe PM XI Cumbre Tuxtla 2009", 
+        file: "documents/InformePMXICumbreTuxtla2009.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/73.jpg", 
+        description: "Informe PM XI Cumbre Tuxtla 2009"
+    },
+    { 
+        name: "Informe PM XII Cumbre Tuxtla 2010", 
+        file: "documents/InformePMXIICumbreTuxtla2010.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/74.jpg", 
+        description: "Informe PM XII Cumbre Tuxtla 2010"
+    },
+    { 
+        name: "Informe PM XIII Cumbre Tuxtla 2011", 
+        file: "documents/InformePMXIIICumbreTuxtla2011.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/75.jpg", 
+        description: "Informe PM XIII Cumbre Tuxtla 2011"
+    },
+    { 
+        name: "Informe PM XIV Cumbre Tuxtla 2012", 
+        file: "documents/InformePMXIVCumbreTuxtla2012.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/76.jpg", 
+        description: "Informe PM XIV Cumbre Tuxtla 2012"
+    },
+    { 
+        name: "Informe PM XVII Cumbre de Tuxtla 2019", 
+        file: "documents/InformePMXVIICumbredeTuxtla2019.pdf", 
+        category: ["Institucional"],
+        image: "documents/thumbnails/77.jpg", 
+        description: "Informe PM XVII Cumbre de Tuxtla 2019"
     }
 ];
 
