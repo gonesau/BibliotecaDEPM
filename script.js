@@ -477,7 +477,7 @@ const documents = [
         description: "Plan Estratégico Institucional PM 2024 - 2028"
     },
     { 
-        name: "Portafolio 2025 | Peoyecto Mesoamérica", 
+        name: "Portafolio 2025 | Proyecto Mesoamérica", 
         file: "documents/Portafolio.pdf", 
         category: ["Institucional"],
         image: "documents/thumbnails/71.jpg", 
