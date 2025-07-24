@@ -456,18 +456,18 @@ const documents = [
         description: "Cuaderno País: México"
     },
     { 
-        name: "Declaracion Cumbre Tuxtla San Salvador - 15 junio 2001", 
+        name: "Declaración Cumbre Tuxtla San Salvador - 15 junio 2001", 
         file: "documents/DeclaracionCumbreTuxtlaSanSalvador15junio2001.pdf", 
         category: ["Institucional"],
         image: "documents/thumbnails/68.jpg", 
-        description: "Declaracion Cumbre Tuxtla San Salvador - 15 junio 2001"
+        description: "Declaración Cumbre Tuxtla San Salvador - 15 junio 2001"
     },
     { 
-        name: "Declaracion Cumbre Tuxtla San Salvador - 23 de agosto de 2019", 
+        name: "Declaración Cumbre Tuxtla San Salvador - 23 de agosto de 2019", 
         file: "documents/DeclaraciondeSanPedroSulaMesoamericaconecta.pdf", 
         category: ["Institucional"],
         image: "documents/thumbnails/69.jpg", 
-        description: "Declaracion Cumbre Tuxtla San Salvador - 23 de agosto de 2019"
+        description: "Declaración Cumbre Tuxtla San Salvador - 23 de agosto de 2019"
     },
     { 
         name: "Plan Estratégico Institucional PM 2024 - 2028", 
