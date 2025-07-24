@@ -524,6 +524,27 @@ const documents = [
         category: ["Institucional"],
         image: "documents/thumbnails/77.jpg", 
         description: "Informe PM XVII Cumbre de Tuxtla 2019"
+    },
+        { 
+        name: "Reglamento Operativo EMSA", 
+        file: "documents/ReglamentoOperativoEMSAFINAL.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/78.jpg", 
+        description: "Reglamento Operativo EMSA"
+    },
+        { 
+        name: "Reglamento de Funcionamiento de Sistema Público Mesoamericano de Salud Pública (SMSP)", 
+        file: "documents/ReglamentoSMSP.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/79.jpg", 
+        description: "Reglamento de Funcionamiento de Sistema Público Mesoamericano de Salud Pública (SMSP)"
+    },
+        { 
+        name: "Programa Mesoamericano de Educación Ambiental (PMEA)", 
+        file: "documents/ProgramaMesoamericanodeEducacionAmbiental(PMEA)2023.pdf", 
+        category: ["Socioambiental"],
+        image: "documents/thumbnails/80.jpg", 
+        description: "Programa Mesoamericano de Educación Ambiental (PMEA)"
     }
 ];
 
