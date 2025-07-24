@@ -598,6 +598,8 @@ function createPaginationButtons() {
     const totalPages = Math.ceil(filteredDocuments.length / ITEMS_PER_PAGE);
     paginationContainer.innerHTML = '';
 
+    const maxButtons = 10;
+
     // Botón Anterior
     const prevButton = document.createElement('button');
     prevButton.classList.add('btn', 'btn-outline-primary', 'mr-2');
@@ -611,23 +613,75 @@ function createPaginationButtons() {
     });
     paginationContainer.appendChild(prevButton);
 
-    // Botones de número de página
-    for (let i = 1; i <= totalPages; i++) {
-        const pageButton = document.createElement('button');
-        pageButton.classList.add('btn', 'btn-outline-primary', 'mr-2');
-        pageButton.textContent = i;
-        
-        if (i === currentPage) {
-            pageButton.classList.add('active');
+    let pages = [];
+
+    // Si hay menos de 10 páginas, mostrarlas todas
+    if (totalPages <= maxButtons) {
+        for (let i = 1; i <= totalPages; i++) {
+            pages.push(i);
         }
-        
-        pageButton.addEventListener('click', () => {
-            currentPage = i;
-            displayDocuments();
-        });
-        
-        paginationContainer.appendChild(pageButton);
+    } else {
+        // Siempre mostrar la primera y última
+        pages.push(1);
+
+        let start = Math.max(2, currentPage - 3);
+        let end = Math.min(totalPages - 1, currentPage + 3);
+
+        // Ajustar si estamos cerca del inicio
+        if (currentPage <= 5) {
+            start = 2;
+            end = 8;
+        }
+
+        // Ajustar si estamos cerca del final
+        if (currentPage >= totalPages - 4) {
+            start = totalPages - 7;
+            end = totalPages - 1;
+        }
+
+        // Agregar el rango ajustado
+        for (let i = start; i <= end; i++) {
+            if (!pages.includes(i)) {
+                pages.push(i);
+            }
+        }
+
+        pages.push(totalPages);
+
+        // Insertar puntos suspensivos si es necesario
+        let finalPages = [];
+
+        for (let i = 0; i < pages.length; i++) {
+            if (i > 0 && pages[i] !== pages[i - 1] + 1) {
+                finalPages.push("...");
+            }
+            finalPages.push(pages[i]);
+        }
+
+        pages = finalPages;
     }
+
+    // Renderizar botones
+    pages.forEach(p => {
+        if (p === "...") {
+            const dots = document.createElement("span");
+            dots.textContent = "...";
+            dots.classList.add("mx-2");
+            paginationContainer.appendChild(dots);
+        } else {
+            const pageButton = document.createElement('button');
+            pageButton.classList.add('btn', 'btn-outline-primary', 'mr-2');
+            pageButton.textContent = p;
+            if (p === currentPage) {
+                pageButton.classList.add('active');
+            }
+            pageButton.addEventListener('click', () => {
+                currentPage = p;
+                displayDocuments();
+            });
+            paginationContainer.appendChild(pageButton);
+        }
+    });
 
     // Botón Siguiente
     const nextButton = document.createElement('button');
@@ -642,6 +696,8 @@ function createPaginationButtons() {
     });
     paginationContainer.appendChild(nextButton);
 }
+
+
 
 // Función para mostrar documentos según categoría y paginación
 function showDocuments(category) {
